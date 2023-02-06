@@ -1,0 +1,65 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-image: url(./img/anh3.jpg);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    overflow: hidden;
+    box-shadow: none;
+    margin: 5px;
+    padding: 2px;
+    color: rgb(154, 242, 242);
+    width: 25%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(167, 238, 234);
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.container:hover {
+    overflow: hidden;
+    box-shadow: none;
+    margin-left: 30px;
+    margin: 5px;
+    padding: 2px;
+    color: rgb(179, 209, 209);
+    width: 35%;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgb(167, 238, 234);
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid lightslategrey;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.container h2 {
+    color: rgb(11, 12, 12);
+}
+
+.container a {
+    color: rgb(206, 63, 121);
+    margin: 0 30px 12px;
+}

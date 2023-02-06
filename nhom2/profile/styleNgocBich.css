@@ -1,0 +1,99 @@
+:root {
+    --bg1: pink --bg2: blue --bg: white
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(anh5.jpg);
+}
+
+.container {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid lightslategrey;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.container img.active {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 5px solid lightslategrey;
+    margin: 0;
+}
+
+.container h2 {
+    color: aqua;
+}
+
+.container p {
+    color: aqua;
+    margin: 0 30px 12px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 12px;
+}
+
+.btn-container button {
+    height: 30px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+    color: brown;
+    cursor: pointer;
+}
+
+.btn-container button:hover {
+    transform: SCALE(0.95);
+}
+
+.icon-social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-social i {
+    padding: 12px;
+    color: var(pink);
+    background: white;
+    margin: 5px 0 0 12px;
+    border-radius: 50%;
+}
+
+.icon-social i:hover {
+    transform: scale(0.95);
+}
+
+.IMG img {
+    width: 450px;
+    height: 550px;
+    border-radius: 0;
+}
